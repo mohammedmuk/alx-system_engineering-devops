@@ -10,8 +10,8 @@ while [ "$i" -lt 13 ]
   while [ "$j" -lt 60 ]
    do
     echo $j
-    j=$(($j+1))
+    ((j++))
   done;
  j=1
- i=$(($i+1))
+ ((i++))
  done;
