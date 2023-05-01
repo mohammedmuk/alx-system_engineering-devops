@@ -6,10 +6,11 @@ i=1
 
 while [ $i -lt 21 ]
  do
-  case [$i] in
+  echo $i
+  case $i in
     4)
      echo bad luck from China
-    ;;
+     ;;
     9)
      echo bad luck from Japan
     ;;
@@ -17,8 +18,6 @@ while [ $i -lt 21 ]
      echo bad luck from Italy
     ;;
   *)
-   echo $i
-    ;;
   esac
   ((i++))
   done;
