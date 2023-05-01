@@ -13,10 +13,10 @@ while [ $i -lt 21 ]
      ;;
     9)
      echo bad luck from Japan
-    ;;
+     ;;
     17)
      echo bad luck from Italy
-    ;;
+     ;;
   *)
   esac
   ((i++))
